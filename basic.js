@@ -13,7 +13,8 @@ while (number > 0) { // printing the last digit of the number
     console.log("Digit:", digit); // printing the remiainder
     number = Math.floor(number / 10); // removing the last digit
 }
- //question 3
+ 
+//question 3
  //identify the data types of the following
  boy = 'true'
  console.log(typeof('boy')) // its a string
@@ -32,3 +33,11 @@ while (number > 0) { // printing the last digit of the number
 
 boy = {foo: "bar."}
 console.log(typeof(boy)) // its an object
+
+//question 4
+
+console.log('5' + 10)
+ /*its a string concatenation, 
+where everything bahaves like a string. the number 
+in quote has nowbeen converted into a string.*/
+
