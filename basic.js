@@ -52,3 +52,12 @@ let foo = ['a', 'b', 'c','d'];
 console.log(foo.length);  // => 4
 console.log(foo[5]);      // will this result in an error?
 // javascript doesnt return an error message like other languages
+
+//question 8
+//Create an array named names that contains a list of pet names
+
+names = ['uloma', 'chuka', 'ken', 'collins', 'obi'];
+
+//question 9
+
+
