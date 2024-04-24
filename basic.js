@@ -41,3 +41,7 @@ console.log('5' + 10)  //its a string concatenation.
 //question 5
 
 console.log(parseInt('5') + 10); // explicit coercion.
+
+//question 6
+
+console.log(`The value of ${Number('5')} + 10 is ${Number('5') + 10}.`);
