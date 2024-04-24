@@ -78,6 +78,6 @@ parseInt('3.1415') // = 3.
 //question 12
 //What value does the following expression evaluate to?
 
-'12' < '9'
+'12' < '9' // false
 
 
