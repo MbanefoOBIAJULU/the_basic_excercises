@@ -45,3 +45,10 @@ console.log(parseInt('5') + 10); // explicit coercion.
 //question 6
 
 console.log(`The value of ${Number('5')} + 10 is ${Number('5') + 10}.`);
+
+//question 7 
+
+let foo = ['a', 'b', 'c','d'];
+console.log(foo.length);  // => 4
+console.log(foo[5]);      // will this result in an error?
+// javascript doesnt return an error message like other languages
