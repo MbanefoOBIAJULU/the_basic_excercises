@@ -65,3 +65,19 @@ let pets = {
     "Buddy": "Dog",
     "Nibbles": "Rabbit"
 };
+
+//question 10 
+
+'foo' === 'Foo' // case is different , its False
+
+//question 11
+//What value does the following expression evaluate to?
+
+parseInt('3.1415') // = 3. 
+
+//question 12
+//What value does the following expression evaluate to?
+
+'12' < '9'
+
+
