@@ -15,7 +15,7 @@ while (number > 0) { // printing the last digit of the number
 }
  
 //question 3
- //identify the data types of the following
+
  boy = 'true'
  console.log(typeof('boy')) // its a string
  
@@ -36,8 +36,8 @@ console.log(typeof(boy)) // its an object
 
 //question 4
 
-console.log('5' + 10)
- /*its a string concatenation, 
-where everything bahaves like a string. the number 
-in quote has nowbeen converted into a string.*/
+console.log('5' + 10)  //its a string concatenation.
 
+//question 5
+
+console.log(parseInt('5') + 10); // explicit coercion.
