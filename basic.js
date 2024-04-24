@@ -60,4 +60,8 @@ names = ['uloma', 'chuka', 'ken', 'collins', 'obi'];
 
 //question 9
 
-
+let pets = {
+    "Fluffy": "Cat",
+    "Buddy": "Dog",
+    "Nibbles": "Rabbit"
+};
