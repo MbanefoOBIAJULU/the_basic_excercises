@@ -14,3 +14,21 @@ while (number > 0) { // printing the last digit of the number
     number = Math.floor(number / 10); // removing the last digit
 }
  //question 3
+ //identify the data types of the following
+ boy = 'true'
+ console.log(typeof('boy')) // its a string
+ 
+ boy = false
+ console.log(typeof(boy)) // its a boolean
+
+ boy = 1.5
+ console.log(typeof(boy)) // its a number
+
+ boy = 2
+ console.log(typeof(boy)) // its a number
+
+ boy = undefined
+ console.log(typeof(boy)) //its undefined
+
+boy = {foo: "bar."}
+console.log(typeof(boy)) // its an object
