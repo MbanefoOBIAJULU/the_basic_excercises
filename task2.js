@@ -91,10 +91,27 @@ function isPrime(number) {
 console.log(isPrime(7)); // Output: true
 console.log(isPrime(10)); // Output: false
 
-//Write a function called toUppercase that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+/*Write a function called toUppercase that takes a string and returns that 
+string with only the first letter capitalized. Make sure that it can take 
+strings that are lowercase, UPPERCASE or BoTh.*/
+
+function toUppercase(str) {
+    if (typeof str !== "string" || str.length === 0) {
+        return ""; // Return an empty string if input is not a string or is empty
+    }
+    
+    // Convert the first character to uppercase and concatenate it with the rest of the string
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+}
+
+// Example usage:
+console.log(toUppercase("hello")); // Output: "Hello"
+console.log(toUppercase("WORLD")); // Output: "World"
+console.log(toUppercase("bOTh"));  // Output: "Both"
 
 
-/*The marketing team is spending way too much time typing in hashtags. Let’s create a hashtag generator for them, our hashtag generator will meet the following criteria; 
+/*The marketing team is spending way too much time typing in hashtags.
+ Let’s create a hashtag generator for them, our hashtag generator will meet the following criteria; 
 It must start with a hash symbol, #.
 Ignore all spaces in the input.
 All words must have their first letter capitalized.
