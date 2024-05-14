@@ -8,6 +8,14 @@ console.log(fahrenheitToCelsius(212));  // Output will be 100.0
 
 /*Write a function min(x,y) which returns the least of two numbers x and y.
 Eg. min(6, 3) == 3*/
+function min(x, y) {
+    return x < y ? x : y;
+}
+
+// Example usage:
+console.log(min(6, 3)); // Output: 3
+console.log(min(-2, 5)); // Output: -2
+console.log(min(10, 10)); // Output: 10
 
 
 //Create a function that checks if a number, n is divisible by two numbers x and y. All inputs are positive, non-zero digits.
