@@ -73,6 +73,23 @@ console.log(generatePrimes(100)); // Output: an array containing the first 100 p
 
 //Create a function that will return a boolean specifying if a number is a prime number.
 
+function isPrime(number) {
+    // Check if number is less than 2
+    if (number < 2) {
+        return false;
+    }
+    // Check for divisibility by numbers from 2 to the square root of the number
+    for (let i = 2; i <= Math.sqrt(number); i++) {
+        if (number % i === 0) {
+            return false; // Not a prime number
+        }
+    }
+    return true; // Prime number
+}
+
+// Example usage:
+console.log(isPrime(7)); // Output: true
+console.log(isPrime(10)); // Output: false
 
 //Write a function called toUppercase that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
 
