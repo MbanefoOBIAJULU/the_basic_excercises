@@ -118,21 +118,24 @@ All words must have their first letter capitalized.
 If the final result is going to be longer than 140 characters, it should return false.
 If the input or result is an empty string, it should return false.
 */
-def generate_hashtag(s):
-    # Check if the input string is empty or consists of only spaces
-    if not s.strip():
-        return False
-    
-    # Remove spaces and capitalize the first letter of each word
-    words = s.split()
-    hashtag = '#' + ''.join(word.capitalize() for word in words)
-    
-    # Check if the length of the hashtag is within the limit
-    if len(hashtag) > 140:
-        return False
-    
-    return hashtag
+function generateHashtag(s) {
+    // Check if the input string is empty or consists of only spaces
+    if (!s.trim()) {
+        return false;
+    }
 
-# Example usage:
-input_string = "create a hashtag generator for marketing team"
-print(generate_hashtag(input_string))
+    // Remove spaces and capitalize the first letter of each word
+    const words = s.split(/\s+/);
+    const hashtag = '#' + words.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join('');
+
+    // Check if the length of the hashtag is within the limit
+    if (hashtag.length > 140) {
+        return false;
+    }
+
+    return hashtag;
+}
+
+// Example usage:
+const inputString = "create a hashtag generator for marketing team";
+console.log(generateHashtag(inputString));
