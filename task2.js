@@ -8,7 +8,8 @@ function fahrenheitToCelsius(fahrenheit) {
 console.log(fahrenheitToCelsius(32));   // Output will be 0.0
 console.log(fahrenheitToCelsius(212));  // Output will be 100.0
 
-/*Write a function min(x,y) which returns the least of two numbers x and y.
+/*Question 2
+Write a function min(x,y) which returns the least of two numbers x and y.
 Eg. min(6, 3) == 3*/
 
 function min(x, y) {
