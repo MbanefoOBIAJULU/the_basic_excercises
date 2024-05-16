@@ -1,4 +1,5 @@
- //Create a function that will be able to convert figures from Fahrenheit to Celsius.
+ /*Question 1
+ Create a function that will be able to convert figures from Fahrenheit to Celsius.*/
 
 function fahrenheitToCelsius(fahrenheit) {
     var celsius = (fahrenheit - 32) * 5/9;
