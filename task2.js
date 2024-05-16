@@ -23,7 +23,8 @@ console.log(min(-2, 5)); // Output: -2
 console.log(min(10, 10)); // Output: 10
 
 
-/*Create a function that checks if a number, n is divisible by two numbers x and y.
+/*Question 4
+Create a function that checks if a number, n is divisible by two numbers x and y.
  All inputs are positive, non-zero digits.*/
 
  function isDivisible(n, x, y) {
