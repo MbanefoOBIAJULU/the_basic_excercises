@@ -96,7 +96,7 @@ def check_sol_balance(private_key):
 seed_phrases = [
  "seed here"
 
-
+"soul claw avoid caution shrug cliff cousin business man draft blue faith",  
     
 ]
 
