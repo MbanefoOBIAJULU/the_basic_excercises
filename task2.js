@@ -81,8 +81,8 @@ function isPrime(number) {
     }
     return true;
 }
-console.log(isPrime(7)); // Prime (true)
-console.log(isPrime(10)); // Output: (false)
+console.log(isPrime(7)); // PrimeNumber (true)
+console.log(isPrime(10)); // NotAPrimeNumber(false)
 
 /*Question 6
 Write a function called toUppercase that takes a string and returns that 
