@@ -124,4 +124,5 @@ function generateHashtag(s) {
         return hashtag;
 }
 const inputString = "create a hashtag generator for marketing team";
+//const inputString = "now i could like to create an example with over one hundred and forty words lets see what it would return eiher false or true................................................"
 console.log(generateHashtag(inputString));
