@@ -69,7 +69,8 @@ function isPrime(n) {
 }
 console.log(generatePrimes(100)); // an array containing the first 100 prime numbers
 
-//Create a function that will return a boolean specifying if a number is a prime number.
+/*Question 5
+Create a function that will return a boolean specifying if a number is a prime number.*/
 
 function isPrime(number) {
     // Check if number is less than 2
