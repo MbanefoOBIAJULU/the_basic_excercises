@@ -31,7 +31,7 @@ console.log(isDivisible(10, 2, 5));  // True (10 is divisible by 2 and 5)
 console.log(isDivisible(12, 3, 4));  // True (12 is divisible by 3 and 4)
 console.log(isDivisible(7, 2, 3));   // False (7 is not divisible 2 and 3)
 
-/*Question 6
+/*Question 4
 Create a function that will output the first 100 prime numbers.*/
 
 function generatePrimes(count) {
