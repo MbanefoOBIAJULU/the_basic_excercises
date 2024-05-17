@@ -96,10 +96,9 @@ function toUppercase(str) {
     // Convert the first character to uppercase and concatenate it with the rest of the string
     return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }
-console.log(toUppercase("hello")); // Output: "Hello"
-console.log(toUppercase("WORLD")); // Output: "World"
-console.log(toUppercase("bOTh"));  // Output: "Both"
-
+console.log(toUppercase("hello")); //  "Hello"
+console.log(toUppercase("WORLD")); //  "World"
+console.log(toUppercase("bOTh"));  //  "Both"
 
 /*Question 7
 The marketing team is spending way too much time typing in hashtags.
