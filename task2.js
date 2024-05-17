@@ -28,7 +28,7 @@ Create a function that checks if a number, n is divisible by two numbers x and y
     return n % x === 0 && n % y === 0;
 }
 
-/*Question 5
+/*Question 4
 Example usage:*/
 console.log(isDivisible(10, 2, 5));  // Output: true (10 is divisible by both 2 and 5)
 console.log(isDivisible(12, 3, 4));  // Output: true (12 is divisible by both 3 and 4)
