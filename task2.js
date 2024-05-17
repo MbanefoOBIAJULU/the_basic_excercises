@@ -84,7 +84,8 @@ function isPrime(number) {
 console.log(isPrime(7)); // Prime (true)
 console.log(isPrime(10)); // Output: (false)
 
-/*Write a function called toUppercase that takes a string and returns that 
+/*Question 6
+Write a function called toUppercase that takes a string and returns that 
 string with only the first letter capitalized. Make sure that it can take 
 strings that are lowercase, UPPERCASE or BoTh.*/
 
