@@ -123,7 +123,5 @@ function generateHashtag(s) {
     }
         return hashtag;
 }
-
-// Example usage:
 const inputString = "create a hashtag generator for marketing team";
 console.log(generateHashtag(inputString));
