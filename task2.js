@@ -73,8 +73,7 @@ console.log(generatePrimes(100)); // an array containing the first 100 prime num
 Create a function that will return a boolean specifying if a number is a prime number.*/
 
 function isPrime(number) {
-    // Check if number is less than 2
-    if (number < 2) {
+     if (number < 2) {
         return false;
     }
     // Check for divisibility by numbers from 2 to the square root of the number
