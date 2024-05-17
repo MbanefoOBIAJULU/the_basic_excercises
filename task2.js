@@ -114,17 +114,14 @@ function generateHashtag(s) {
     if (!s.trim()) {
         return false;
     }
-
-    // Remove spaces and capitalize the first letter of each word
+// Remove spaces and capitalize the first letter of each word
     const words = s.split(/\s+/);
     const hashtag = '#' + words.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join('');
-
-    // Check if the length of the hashtag is within the limit
+// Check if the length of the hashtag is within the limit
     if (hashtag.length > 140) {
         return false;
     }
-
-    return hashtag;
+        return hashtag;
 }
 
 // Example usage:
