@@ -73,19 +73,16 @@ Create a function that will return a boolean specifying if a number is a prime n
 function isPrime(number) {
      if (number < 2) {
         return false;
-    }
-    // Check for divisibility by numbers from 2 to the square root of the number
+    } // Check for divisibility by numbers from 2 to the square root of the number
     for (let i = 2; i <= Math.sqrt(number); i++) {
         if (number % i === 0) {
-            return false; // Not a prime number
+            return false;
         }
     }
-    return true; // Prime number
+    return true;
 }
-
-// Example usage:
-console.log(isPrime(7)); // Output: true
-console.log(isPrime(10)); // Output: false
+console.log(isPrime(7)); // Prime (true)
+console.log(isPrime(10)); // Output: (false)
 
 /*Write a function called toUppercase that takes a string and returns that 
 string with only the first letter capitalized. Make sure that it can take 
