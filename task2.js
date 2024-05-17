@@ -20,7 +20,7 @@ console.log(min(-2, 5)); // Min (-2)
 console.log(min(10, 10)); // Min (10)
 
 
-/*Question 4
+/*Question 3
 Create a function that checks if a number, n is divisible by two numbers x and y.
  All inputs are positive, non-zero digits.*/
 
