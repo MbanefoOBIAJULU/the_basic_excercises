@@ -44,10 +44,8 @@ function generatePrimes(count) {
         }
         num++;
     }
-
     return primes;
 }
-
 function isPrime(n) {
     if (n <= 1) {
         return false;
