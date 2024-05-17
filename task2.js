@@ -14,10 +14,7 @@ Eg. min(6, 3) == 3*/
 
 function min(x, y) {
     return x < y ? x : y;
-}
-
-/*Question 3
-Example usage:*/
+} 
 console.log(min(6, 3)); // Output: 3
 console.log(min(-2, 5)); // Output: -2
 console.log(min(10, 10)); // Output: 10
