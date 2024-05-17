@@ -68,7 +68,7 @@ function isPrime(n) {
     return true;
 }
 
-/*Question 7
+/*Question 5
 Example usage:*/
 console.log(generatePrimes(100)); // Output: an array containing the first 100 prime numbers
 
